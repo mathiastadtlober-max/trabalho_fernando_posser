@@ -1,8 +1,14 @@
 1118454_Camila Campos
+
 1116251_Mathias Stadtlober
 
 Transformação da Coluna “Com que frequência você aposta?” para Valores Numéricos
-Neste exemplo, escolhemos trabalhar com a coluna “Com que frequência você aposta?”, pois ela contém respostas textuais que descrevem a regularidade com que cada participante aposta. Para realizar análises estatísticas, é importante transformar essas categorias qualitativas em valores numéricos que representem, de forma aproximada, a frequência mensal de apostas.
+
+Neste exemplo, escolhemos trabalhar com a coluna “Com que frequência você aposta?”,
+
+pois ela contém respostas textuais que descrevem a regularidade com que cada participante aposta. Para realizar análises estatísticas, 
+
+é importante transformar essas categorias qualitativas em valores numéricos que representem, de forma aproximada, a frequência mensal de apostas.
 
 Lógica da Função Desenvolvida
 Foi criada uma função em Python que recebe a resposta textual da frequência e retorna um número inteiro estimado de apostas por mês. O mapeamento definido foi:
